@@ -1,0 +1,53 @@
+
+.divimg{
+    display: block;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: fit-content;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+.card:hover{
+    transform: scale(1.08);
+    box-shadow: 0 12px 24px black;
+}
+.Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: darkgray;
+    /* border: 3px solid darkgreen; */
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: blue;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+}

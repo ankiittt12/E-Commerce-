@@ -1,0 +1,19 @@
+#footer{
+    color: white;
+    background-color: black;
+}
+#about{
+    padding: 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+ol{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#social{
+    display: block;
+}
